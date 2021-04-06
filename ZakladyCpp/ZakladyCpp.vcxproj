@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SourceSecondary.cpp" />
     <ClCompile Include="ZakladyCpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
